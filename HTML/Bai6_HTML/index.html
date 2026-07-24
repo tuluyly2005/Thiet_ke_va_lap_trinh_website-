@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngày 5 học thiết kế website </title>
+    <link rel="icon" href="images/free-logo-html-5-free-png.webp">
+</head>
+<body>
+    <hr>
+    <header id="top">
+    <h1> TRANG GIỚI THIỆU KHÓA HỌC HTML CỦA TÔI</h1>
+    <img src="images/free-logo-html-5-free-png.webp" alt="logo" width="150" height="100">
+    </header>
+    <hr>
+
+    <nav>
+        <a href="#gioithieu"> Giới thiệu</a> |
+        <a href="#video"> Video</a> |
+        <a href="#amthanh">Âm thanh</a> |
+        <a href="#thuvien"> Thư viện</a> |
+        <a href="#lienhe"> Liên hệ</a>
+    </nav>
+    <main>
+        <section id="gioithieu">
+            <h2>Giới thiệu</h2>
+            <p> Xin chào! Minh là Hằng. Đây là website được xây dựng trong quá trình học HTML.
+                Trang web này giúp mình luyện tập các thẻ HTML cơ bản như hình ảnh, liên kết, bảng, biểu mẫu, video và âm thanh.
+                Mục tiêu của mình là hoàn thành nền tảng HTML trước khi chuyển sang CSS.
+            </p>
+          
+            <p> HTML &amp; CSS là nền tảng của lập trình web.</p>
+        </section>
+        <section id="video">
+            <h2> Video giới thiệu</h2>
+            <p> Video học HTML cho người mới bắt đầu</p>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/pQN-pnXPaVg"
+            title="HTML Tutorial" frameborder="0"  allowfullscreen></iframe>
+
+        </section>
+
+        <section id="amthanh">
+            <h2> Âm thanh</h2>
+            <audio controls>
+                <source src="music/intro.mp3" type="audio/mpeg">
+                Trình duyệt không hỗ trợ audio.
+            </audio>
+        </section>
+
+        <section id="thuvien">
+            <h2>Thư viện hình ảnh</h2>
+            <p> Một số hình ảnh minh họa</p>
+            <img src="images/hoc-html-va-css-de-lam-gi-20221116154500-662253.jpg" alt="HTML" width="150" height="100">
+            <img src="images/html-la-gi-giai-thich-chi-tiet-tu-a-z-ve-html-1.jpg"  alt="HTML" width="150" height="100">
+            <img src="images/OIP (2).webp" alt="HTML" width="150" height="100">
+        </section>
+
+        <section id="lienhe">
+            <h2>Liên hệ</h2>
+            <form >
+                <table>
+                  <tr>
+                      <td> Họ và tên :</td>
+                     <td> <input required maxlength="20" type="text" ></td>
+                  </tr>
+                  <tr>
+                     <td> Email:</td>
+                     <td> <input required type="email"></td>
+                  </tr>
+                  <tr>
+                     <td>Số điện thoại:</td>
+                     <td><input required maxlength="10" type="tel"></td>
+                  </tr>
+                  <tr>
+                     <td> Màu yêu thích:</td>
+                     <td> <input required type="color"></td>
+                  </tr>
+                  <tr>
+                     <td>Đính kèm tệp:</td>
+                     <td> <input required type="file"></td>
+                  </tr>
+                  <tr>
+                     <td> Mức hài lòng:</td>
+                     <td><input required type="range"></td>
+                  </tr>
+            </table>
+             <p>Góp ý:</p>
+             <textarea  required name="" id="" placeholder="Đưa ra một vài gợi ý giúp tôi hoàn thiện trang web "></textarea><br>
+             <button type="submit">Gửi</button>
+            </form>
+        </section>
+        <hr>
+     
+    </main>
+    <footer>
+      <p> &copy; 2026 Hằng Nguyễn</p>
+      <p>Bài thực hành HTML</p>
+      <a href="#top">Quay lại đầu trang</a>
+    </footer>
+</body>
+</html>
